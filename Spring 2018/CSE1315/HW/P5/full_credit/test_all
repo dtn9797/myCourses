@@ -1,0 +1,6 @@
+
+make clean
+make test_library  
+./test_library  
+make test_publication  
+./test_publication  

@@ -1,0 +1,10 @@
+*** Error in `./mice': free(): invalid pointer: 0x00007fa77a295000 ***
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(+0x777e5)[0x7fa77d63a7e5]
+/lib/x86_64-linux-gnu/libc.so.6(+0x8037a)[0x7fa77d64337a]
+/lib/x86_64-linux-gnu/libc.so.6(cfree+0x4c)[0x7fa77d64753c]
+./mice[0x406793]
+./mice[0x4065cf]
+./mice[0x40630a]
+./mice[0x405eb7]
+./mice(_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev+0x35)[0x405b03]
